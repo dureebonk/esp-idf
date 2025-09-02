@@ -13,3 +13,6 @@ CMake is widely used for the C and C++ languages, but it may be used to build so
 ## VS Code for CMake
 
 https://code.visualstudio.com/docs/cpp/cmake-quickstart
+
+## Tutorial
+https://cmake.org/cmake/help/latest/guide/tutorial/index.html
