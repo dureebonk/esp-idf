@@ -36,9 +36,31 @@ You are a professional engineer working on complex systems: The ARM Cortex-M arc
       <td>IoT, consumer electronics</td>
       <td>Industrial control, automotive, medical, complex systems</td>
     </tr>
+    <tr>
       <td>Connectivity</td>
       <td>Integrated Wi-Fi & Bluetooth</td>
       <td>Requires external modules; rich standard peripherals like CAN, Ethernet</td>
+    </tr>
+    <tr>
+      <td>Processor</td>
+      <td>Dual-core (XTensa)</td>
+      <td>ARM Cortex-M (single or multi-core)</td>
+    </tr>
+    <tr>
+      <td>Peripherals</td>
+      <td>Good general-purpose set</td>
+      <td>More extensive, advanced timers, multiple ADCs, hardware encryption</td>
+    </tr>
+    <tr>
+      <td>Development</td>
+      <td>Beginner-friendly, Arduino support, active open-source community</td>
+      <td>Steeper learning curve, requires deeper hardware understanding, powerful IDEs like STM32CubeIDE</td>
+    </tr>
+    <tr>
+      <td>Cost</td>
+      <td>Lower</td>
+      <td>Higher</td>
+    </tr>
   </tbody>
 </table>
 
