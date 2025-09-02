@@ -33,7 +33,7 @@ You are a professional engineer working on complex systems: The ARM Cortex-M arc
   <tbody>
     <tr>
       <td>Primary Use</td>
-      <td>IoT, consumer electronics<td>
+      <td>IoT, consumer electronics</td>
       <td>Industrial control, automotive, medical, complex systems</td>
     </tr>
       <td>Connectivity</td>
