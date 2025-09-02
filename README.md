@@ -64,3 +64,4 @@ You are a professional engineer working on complex systems: The ARM Cortex-M arc
   </tbody>
 </table>
 
+* <a href="https://www.lisleapex.com/blog-esp32-vs-stm32-which-is-better"> Reference Site</a>
