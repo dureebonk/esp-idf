@@ -45,4 +45,5 @@ void http_client_get_example(void) {
         ESP_LOGE(TAG, "HTTP GET request failed: %s", esp_err_to_name(err));
     }
     esp_http_client_cleanup(client);
-}'''
+}
+'''
