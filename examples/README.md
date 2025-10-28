@@ -46,4 +46,4 @@ void http_client_get_example(void) {
     }
     esp_http_client_cleanup(client);
 }
-'''
+```
