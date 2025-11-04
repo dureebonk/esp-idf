@@ -47,3 +47,40 @@ void http_client_get_example(void) {
     esp_http_client_cleanup(client);
 }
 ```
+
+### RGB Code Parsing
+```C
+#include <stdio.h>
+int get_color(char* color_code, int* rgb)
+{
+    int first_digit, second_digit;
+    
+    for(int i=0; i<3; ++i){
+        
+        if (color_code[i*2 + 0] >= '0' && color_code[i*2 + 0] <= '9') {
+            first_digit = color_code[i*2 + 0] - '0';
+        } else {
+            first_digit = color_code[i*2 + 0] - 'A' + 10;
+        }
+        if (color_code[i*2 + 1] >= '0' && color_code[i*2 + 1] <= '9') {
+            second_digit = color_code[i*2 + 1] - '0';
+        } else {
+            second_digit = color_code[1] - 'A' + 10;
+        }
+        rgb[i] = first_digit * 16 + second_digit;
+    }
+    
+    return 0;
+}
+
+
+int main()
+{
+    char color[] = "FFFFFF";
+    int rgb[3];
+    get_color(color, rgb);
+    printf("RGB: (%d, %d, %d)", rgb[0], rgb[1], rgb[2]);
+
+    return 0;
+}
+```
