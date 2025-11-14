@@ -84,3 +84,26 @@ int main()
     return 0;
 }
 ```
+## I2S Setup
+### INMP 411 MEMS Microphone
+<img width="220" height="220" alt="image" src="https://github.com/user-attachments/assets/2525c583-1d49-41f4-9df1-a2eacb9be9da" />
+
+### ESP32-S3 DevKit
+<img width="1584" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfbf904f-a779-4cec-9496-7c9d0529dc42" />
+
+### GPIO PIN Setup
+#elif CONFIG_IDF_TARGET_ESP32S3
+#define EXAMPLE_I2S_BCLK_IO1        GPIO_NUM_2      // I2S bit clock io number
+#define EXAMPLE_I2S_WS_IO1          GPIO_NUM_3      // I2S word select io number
+#define EXAMPLE_I2S_DOUT_IO1        GPIO_NUM_4      // I2S data out io number
+#define EXAMPLE_I2S_DIN_IO1         GPIO_NUM_5      // I2S data in io number
+// PDM RX 4 line IO
+#define EXAMPLE_I2S_DIN1_IO1        GPIO_NUM_6     // I2S data in io number
+#define EXAMPLE_I2S_DIN2_IO1        GPIO_NUM_7     // I2S data in io number
+#define EXAMPLE_I2S_DIN3_IO1        GPIO_NUM_8     // I2S data in io number
+// STD/TDM simplex pins
+#define EXAMPLE_I2S_BCLK_IO2        GPIO_NUM_6      // I2S bit clock io number
+#define EXAMPLE_I2S_WS_IO2          GPIO_NUM_7      // I2S word select io number
+#define EXAMPLE_I2S_DOUT_IO2        GPIO_NUM_8      // I2S data out io number
+#define EXAMPLE_I2S_DIN_IO2         GPIO_NUM_9      // I2S data in io number
+
