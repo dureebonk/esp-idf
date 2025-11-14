@@ -92,6 +92,7 @@ int main()
 <img width="1584" height="1080" alt="image" src="https://github.com/user-attachments/assets/dfbf904f-a779-4cec-9496-7c9d0529dc42" />
 
 ### GPIO PIN Setup
+```C
 #elif CONFIG_IDF_TARGET_ESP32S3
 #define EXAMPLE_I2S_BCLK_IO1        GPIO_NUM_2      // I2S bit clock io number
 #define EXAMPLE_I2S_WS_IO1          GPIO_NUM_3      // I2S word select io number
@@ -106,4 +107,4 @@ int main()
 #define EXAMPLE_I2S_WS_IO2          GPIO_NUM_7      // I2S word select io number
 #define EXAMPLE_I2S_DOUT_IO2        GPIO_NUM_8      // I2S data out io number
 #define EXAMPLE_I2S_DIN_IO2         GPIO_NUM_9      // I2S data in io number
-
+```
