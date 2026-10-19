@@ -47,5 +47,7 @@ idf.py menuconfig
 idf.py build
 # 결과 에뮬레이션
 idf.py qemu
+# falsh
+idf.py flash
 ```
 
